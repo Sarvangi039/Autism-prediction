@@ -1,0 +1,81 @@
+{
+  "baseline": {
+    "available": true,
+    "accuracy": 0.9625,
+    "f1": 0.9032258064516129,
+    "recall": 0.875,
+    "report": {
+      "0": {
+        "precision": 0.9692307692307692,
+        "recall": 0.984375,
+        "f1-score": 0.9767441860465116,
+        "support": 128.0
+      },
+      "1": {
+        "precision": 0.9333333333333333,
+        "recall": 0.875,
+        "f1-score": 0.9032258064516129,
+        "support": 32.0
+      },
+      "accuracy": 0.9625,
+      "macro avg": {
+        "precision": 0.9512820512820512,
+        "recall": 0.9296875,
+        "f1-score": 0.9399849962490623,
+        "support": 160.0
+      },
+      "weighted avg": {
+        "precision": 0.962051282051282,
+        "recall": 0.9625,
+        "f1-score": 0.9620405101275319,
+        "support": 160.0
+      }
+    }
+  },
+  "improved": {
+    "accuracy": 0.85,
+    "f1": 0.6363636363636364,
+    "recall": 0.65625,
+    "classification_report": {
+      "0": {
+        "precision": 0.9126984126984127,
+        "recall": 0.8984375,
+        "f1-score": 0.905511811023622,
+        "support": 128.0
+      },
+      "1": {
+        "precision": 0.6176470588235294,
+        "recall": 0.65625,
+        "f1-score": 0.6363636363636364,
+        "support": 32.0
+      },
+      "accuracy": 0.85,
+      "macro avg": {
+        "precision": 0.765172735760971,
+        "recall": 0.77734375,
+        "f1-score": 0.7709377236936292,
+        "support": 160.0
+      },
+      "weighted avg": {
+        "precision": 0.853688141923436,
+        "recall": 0.85,
+        "f1-score": 0.8516821760916249,
+        "support": 160.0
+      }
+    },
+    "best_params": {
+      "model__subsample": 0.7,
+      "model__n_estimators": 100,
+      "model__min_child_weight": 5,
+      "model__max_depth": 3,
+      "model__learning_rate": 0.2,
+      "model__gamma": 0.1,
+      "model__colsample_bytree": 0.85
+    },
+    "best_cv_f1": 0.6750451887293993
+  },
+  "selected_model": {
+    "selected": "baseline",
+    "reason": "Baseline has higher F1 score"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "model_type": "baseline",
+  "model_path": "final_model.joblib",
+  "encoder_path": "final_encoder.joblib"
+}
